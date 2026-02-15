@@ -1,0 +1,5 @@
+// Solution: Exercise 02 - Glass Counter
+
+drink glassesToday = 3
+glassesToday = glassesToday + 2
+pour "Total glasses today: " + glassesToday

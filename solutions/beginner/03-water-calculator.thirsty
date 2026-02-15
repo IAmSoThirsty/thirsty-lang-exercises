@@ -1,0 +1,11 @@
+// Solution: Exercise 03 - Water Calculator
+
+glass calculateWater(weight) {
+  drink mlPerKg = 33
+  drink dailyGoal = weight * mlPerKg
+  return dailyGoal
+}
+
+drink bodyWeight = 70
+drink waterGoal = calculateWater(bodyWeight)
+pour "Person weighing " + bodyWeight + "kg should drink: " + waterGoal + "ml"

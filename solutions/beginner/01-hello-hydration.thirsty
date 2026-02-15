@@ -1,0 +1,8 @@
+// Solution: Exercise 01 - Hello Hydration
+
+// Output the required message
+pour "Stay hydrated!"
+
+// Bonus: Additional hydration reminders
+pour "Drink 8 glasses a day!"
+pour "Water is essential! 💧"
